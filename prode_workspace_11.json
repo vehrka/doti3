@@ -1,0 +1,103 @@
+// vim:ts=4:sw=4:et
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1011,
+               "width": 1206,
+               "x": 1680,
+               "y": 18
+            },
+            "name": "XChat: vehrka @ OFTC / #osm-es (+nt)",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "Xchat",
+               "instance": "xchat"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 495,
+               "width": 836,
+               "x": 1682,
+               "y": 534
+            },
+            "name": "Telegram (89)",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "[Tt]elegram",
+                "instance": "[Tt]elegram"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1011,
+               "width": 836,
+               "x": 2522,
+               "y": 18
+            },
+            "name": "agile-spain - Slack",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "Slack",
+                "instance": "slack"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 490,
+               "width": 385,
+               "x": 1465,
+               "y": 158
+            },
+            "name": "Kopete",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "Kopete",
+                "instance": "kopete"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
