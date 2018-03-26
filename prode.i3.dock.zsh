@@ -1,3 +1,3 @@
-
-xrandr --output HDMI-1 --mode 1440x900; xrandr --output eDP-1 --mode 1366x768 --right-of HDMI-1
+#!/bin/zsh
+xrandr --output HDMI-1 --mode 1440x900; xrandr --output LVDS-1 --mode 1366x768 --below HDMI-1
 
