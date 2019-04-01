@@ -5,5 +5,10 @@ Esta es la configuración de i3wm que tengo en los distintos ordenadores en los 
 
 No sé si te resultará de utilidad pero ... en cualquier caso ¡Disfrutala!
 
-:version: v1.0
-:date: 2019-03-01
+:version: v1.1
+:date: 2019-04-01
+
+Changelog
+---------
+
+* v1.1: Tweaks para el ordenador devback
