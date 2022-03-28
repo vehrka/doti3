@@ -28,7 +28,7 @@ suspend )
   zenity --question --text '¿Suspender el equipo?'
   export shut=$?
   if [ $shut -eq 0 ] ; then
-    i3lock -c 000000 && systemctl suspend
+    i3lock -c 000000 && pm-suspend
   fi
   ;;
 exit )
