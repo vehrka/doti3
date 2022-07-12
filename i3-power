@@ -42,7 +42,7 @@ shutdown )
   zenity --question --text '¿Apagar el equipo?'
   export shut=$?
   if [ $shut -eq 0 ] ; then
-    sudo shutdown -h now  
+    sudo shutdown -h now
   fi
   ;;
 *) 
